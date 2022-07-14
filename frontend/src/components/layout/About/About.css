@@ -1,0 +1,25 @@
+.aboutContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: wheat;
+    width: 100vw;
+    height: 100vh;
+    animation: animate 4s infinite linear;
+}
+
+.aboutContainer>img{
+    position: absolute;
+    top: 40%;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+@keyframes animate{
+    0%, 100%{
+        background: wheat;
+    }
+    50%{
+        background: white;
+    }
+}

@@ -1,0 +1,93 @@
+.sidebar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+    z-index: 4;
+    height: 100vh;
+    position: fixed;
+    width: 200px;
+    box-shadow: 0px 0px 12px 12px rgba(71, 71, 71, 0.222);
+  }
+
+  .expand{
+    position: absolute;
+    top: 50vh;
+    background: tomato;
+    z-index: 1;
+    border: none;
+    padding: 12px 0px;
+    padding-right: 7px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    cursor: pointer;
+  }
+  .collapse{
+    position: absolute;
+    top: 50vh;
+    background: tomato;
+    z-index: 1;
+    border: none;
+    padding: 12px 6px;
+    padding-left: 2px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    cursor: pointer;
+  }
+  .expand > svg{
+    color: white;
+    transform: rotate(180deg);
+  }
+  .collapse > svg{
+    color: white;
+  }
+
+  .sidebar > a:first-child {
+    padding: 0;
+  }
+  .sidebar > a > img {
+    width: 70%;
+    transition: all 0.5s;
+    position: absolute;
+  }
+  
+  /* .sidebar > a > img:hover {
+    filter: drop-shadow(0 0 10px tomato);
+  } */
+  .sidebar a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.493);
+    font: 200 1rem "Roboto";
+    padding: 2rem 1rem 2rem 1rem;
+    transition: all 0.5s;
+    overflow: hidden;
+  }
+  .productLink {
+    padding-left: 0px !important;
+  }
+  .sidebar a:hover {
+    color: tomato;
+    transform: scale(1.1);
+  }
+  
+  .sidebar a > span {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  .sidebar a > span > svg {
+    margin-right: 0.5rem;
+  }
+  
+  .MuiTypography-root {
+    background-color: #fff !important;
+  }
+
+  .MuiCollapse-wrapperInner {
+    margin-top: 17%;
+}
+.MuiTreeItem-label{
+  width: 100%;
+  position: relative;
+  padding-left: 11px !important;
+}

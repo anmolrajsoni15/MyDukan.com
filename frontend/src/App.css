@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    cursor: url("./images/cursor3.png"), auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track{
+    background: white;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to top,#b61500, #ff0000, #ff6347, rgb(255, 121, 98));
+    border-radius: 8px;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%, 100%{
+        filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.greenColor{
+    color: rgb(21, 179, 21) !important;
+}
+.redColor{
+    color: rgb(255, 51, 0) !important;
+}
