@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
-    "build": "cd frontend && npm install && npm run build"
+    "build": "cd frontend && npm install --save react-tinder-card --legacy-peer-deps && npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -25,9 +25,5 @@
     "nodemon": "^2.0.19",
     "stripe": "^9.13.0",
     "validator": "^13.7.0"
-  },
-  "engines": {
-    "node": "16.14.0",
-    "npm": "8.12.1"
   }
 }
