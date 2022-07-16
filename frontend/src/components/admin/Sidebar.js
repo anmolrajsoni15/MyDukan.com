@@ -43,16 +43,14 @@ function Sidebar() {
         width: isOpen?"200px":"57px", 
         transition: {
             duration: 0.6,
-            type: 'spring',
-            damping: 10,
+            type: 'inertia',
         }
     }} className='sidebar'>
         <motion.button animate={{
         left: isOpen?"200px":"57px", 
         transition: {
             duration: 0.6,
-            type: 'spring',
-            damping: 10,
+            type: 'inertia',
         }
     }} className={shift} onClick={move}>
             <ArrowForwardIosIcon />

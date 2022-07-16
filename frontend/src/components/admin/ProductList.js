@@ -57,8 +57,8 @@ function ProductList() {
             field: "stock",
             headerName: "Stock",
             type: "number",
-            minWidth: 150,
-            flex: 0.3,
+            minWidth: 100,
+            flex: 0.2,
         },
 
         {

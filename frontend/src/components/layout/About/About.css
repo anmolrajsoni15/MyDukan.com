@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     background: wheat;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     /* animation: animate 4s infinite linear; */
 }

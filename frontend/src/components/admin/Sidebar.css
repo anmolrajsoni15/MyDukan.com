@@ -50,10 +50,7 @@
     transition: all 0.5s;
     position: absolute;
   }
-  
-  /* .sidebar > a > img:hover {
-    filter: drop-shadow(0 0 10px tomato);
-  } */
+
   .sidebar a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.493);

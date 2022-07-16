@@ -48,7 +48,7 @@ function OrderList() {
         {
             field: "id",
             headerName: "Order ID",
-            minWidth: 300,
+            minWidth: 270,
             flex: 1,
         },
         {
@@ -72,7 +72,7 @@ function OrderList() {
             field: "amount",
             headerName: "Amount",
             type: "number",
-            minWidth: 270,
+            minWidth: 200,
             flex: 0.5,
         },
 

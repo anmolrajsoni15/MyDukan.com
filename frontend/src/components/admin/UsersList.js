@@ -65,7 +65,7 @@ function UserList() {
             field: "role",
             headerName: "Role",
             type: "number",
-            minWidth: 150,
+            minWidth: 100,
             flex: 0.3,
             cellClassName: (params) => {
                 return params.getValue(params.id, "role") === "admin"
